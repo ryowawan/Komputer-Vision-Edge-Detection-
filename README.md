@@ -4,7 +4,7 @@
 - **Fungsi Utama:** Menghasilkan garis luar (outline) objek. Ini adalah tulang punggung dari feature extraction. Dengan mengetahui garis tepinya, sistem bisa menebak bentuk ruang benda—apakah itu garis lurus untuk jalur lintasan robot, atau pola sudut tajam untuk membaca marker AR
 
 # Langkah-Langkah
-Berikut adalah panduan langkah demi langkah untuk mengubah gambar menjadi grayscale menggunakan Python di Google Colab. Kita akan menggunakan pustaka **OpenCV**, yang merupakan standar industri untuk Computer Vision.
+Berikut adalah panduan langkah demi langkah untuk mengubah gambar menjadi edge menggunakan Python di Google Colab. Kita akan menggunakan pustaka **OpenCV**, yang merupakan standar industri untuk Computer Vision.
 
 ### 1️⃣ Masuk Google Colab
 - Buka browser dan masuk ke Google Colab
@@ -31,3 +31,6 @@ Keterangan :
 
 ### 4️⃣ Mengubah img menjadi Edge
 <img width="484" height="350" alt="image" src="https://github.com/user-attachments/assets/5b42b4fc-b634-4c0f-ab3e-74d318d4c046" />
+
+Keterangan :
+- Kode pada sel keempat digunakan untuk mendeteksi garis tepi pada gambar menggunakan metode matematika Laplacian untuk menyimpan hasil gambar dalam format 8-bit
