@@ -1,4 +1,4 @@
-# Komputer-Vision-Edge-Detection-
+# Edge-Detection-
 - **Edge Detection** atau Deteksi Tepi adalah teknik matematis untuk menemukan titik-titik dalam gambar di mana intensitas cahayanya berubah secara tajam atau melompat secara drastis (gradien tinggi). Perubahan tajam ini biasanya merupakan batas fisik suatu benda
 - **Bagaimana kerjanya?** Menggunakan algoritma atau operator matriks (seperti Sobel, Prewitt, atau Canny) yang digeser ke seluruh piksel gambar untuk mencari perbedaan nilai piksel yang bersebelahan
 - **Fungsi Utama:** Menghasilkan garis luar (outline) objek. Ini adalah tulang punggung dari feature extraction. Dengan mengetahui garis tepinya, sistem bisa menebak bentuk ruang benda—apakah itu garis lurus untuk jalur lintasan robot, atau pola sudut tajam untuk membaca marker AR
